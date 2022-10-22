@@ -1,6 +1,5 @@
 
 import java.io.IOException;
-
 import java.math.BigDecimal;
 import java.net.URISyntaxException;
 import java.nio.file.Files;
@@ -10,9 +9,6 @@ import java.util.*;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-
-import static java.nio.file.Path.*;
-import static java.nio.file.Paths.get;
 import static java.util.Collections.sort;
 
 
@@ -29,7 +25,7 @@ public class MovieAnalyzer {
         private  String overview;//7,mini story/ summary
         private int meta_score;//8,Score earned by the movie
         //private String director;//Name of the Director
-        private String star1,star2,star3,star4;//10,11,12,13,Name of the Stars
+        private String star1,star2,star3,star4; //10,11,12,13,Name of the Stars
         private int no_of_votes;//14,Total number of votes
         private int gross;//15,Money earned by that movie
 
@@ -201,7 +197,7 @@ public class MovieAnalyzer {
     }
 
     public String ReadRuntime(String runtime){
-        if(runtime.length()==7){
+        if (runtime.length()==7){
             return runtime.substring(0,3);
         }else {
             return runtime.substring(0,2);
