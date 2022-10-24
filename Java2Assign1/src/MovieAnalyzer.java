@@ -17,11 +17,11 @@ public class MovieAnalyzer {
 
 
         private String series_title; //1,Name of the movie
-        private int released_year;//2 Year at which that movie released
+        private int released_year; //2 Year at which that movie released
         //private String Certificate ;//Certificate earned by that movie
-        private int  runtime;//4,Total runtime of the movie
-        private String genre;//5,type of the movie
-        private float IMDB_Rating;//6,Rating of the movie at IMDB site \
+        private int  runtime; //4,Total runtime of the movie
+        private String genre; //5,type of the movie
+        private float IMDB_Rating; //6,Rating of the movie at IMDB site \
         private  String overview;//7,mini story/ summary
         private int meta_score;//8,Score earned by the movie
         //private String director;//Name of the Director
