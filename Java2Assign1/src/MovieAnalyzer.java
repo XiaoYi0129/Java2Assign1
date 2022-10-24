@@ -22,12 +22,12 @@ public class MovieAnalyzer {
         private int  runtime; //4,Total runtime of the movie
         private String genre; //5,type of the movie
         private float IMDB_Rating; //6,Rating of the movie at IMDB site \
-        private  String overview;//7,mini story/ summary
-        private int meta_score;//8,Score earned by the movie
+        private  String overview; //7,mini story/ summary
+        private int meta_score; //8,Score earned by the movie
         //private String director;//Name of the Director
         private String star1,star2,star3,star4; //10,11,12,13,Name of the Stars
-        private int no_of_votes;//14,Total number of votes
-        private int gross;//15,Money earned by that movie
+        private int no_of_votes; //14,Total number of votes
+        private int gross; //15,Money earned by that movie
 
         private String[] genreList;
 
